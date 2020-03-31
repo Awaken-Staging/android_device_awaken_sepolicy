@@ -18,3 +18,6 @@
 
 # Pocket judge
 /sys/kernel/pocket_judge(/.*)?	        u:object_r:pocket_judge_sysfs:s0
+
+# vbswap device for zswap
+/dev/block/vbswap0         u:object_r:swap_block_device:s0
